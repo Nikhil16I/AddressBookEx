@@ -3,8 +3,8 @@ package com.Addressbook;
 public class ContactDATA {
 	
 	String FirstName;String LastName;String Address;String City;String State;String Email;
-	long ZipCode;
-	long PhoneNumber;
+	int ZipCode;
+	int PhoneNumber;
 
 		
 public void AddressBookEx (String Name, String Surname, String address, String city, String state, int zip, int contact, String mail) {
@@ -17,15 +17,16 @@ public void AddressBookEx (String Name, String Surname, String address, String c
 	  public String toString() {
 	return String.format(FirstName + ","  
 			            + LastName + ","
-		              	+ Address + ","
-	                    + City + ","
+		              	    + Address + ","
+	                            + City + ","
 			            + State + "," 
-	                    + ZipCode + "," 
+	                            + ZipCode + "," 
 			            + PhoneNumber + ","
-	                    + Email);
+	                            + Email);
 	 
 	   }
-		
-	}
+		public String tostring() {
+		 return String.format(FirstName+""+LastName+""+Address+""+City+""+State+""+Email+""+ZipCode+""+PhoneNumber);
+  }
 
-
+}
