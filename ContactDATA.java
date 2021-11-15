@@ -25,8 +25,5 @@ public void AddressBookEx (String Name, String Surname, String address, String c
 	                            + Email);
 	 
 	   }
-		public String tostring() {
-		 return String.format(FirstName+""+LastName+""+Address+""+City+""+State+""+Email+""+ZipCode+""+PhoneNumber);
-  }
-
+	
 }
