@@ -85,6 +85,9 @@ public void AddressBookEx (String Name, String Surname, String address, String c
 	public void setFirstName(java.lang.String newFirstName) {
 		// TODO Auto-generated method stub
 		
-	}
+	  }
 	  
+  }
+
 }
+
