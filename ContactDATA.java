@@ -19,7 +19,7 @@ public class ContactDATA {
 				this.Email = email;
 				this.ZipCode = zipCode;
 				this.PhoneNumber = phoneNumber;
-}
+
 	
 	public String getFirstName() {
 		return FirstName;
