@@ -6,7 +6,7 @@ public class ContactDATA {
 	int ZipCode;
 	int PhoneNumber;
 
-	
+
 	public ContactDATA(String firstName, String lastName, String address, String city, String state, int zipCode,
 			int phoneNumber, String email) {
 		// TODO Auto-generated constructor stub
@@ -77,6 +77,7 @@ public class ContactDATA {
 				+ City + ", State=" + State + ", Email=" + Email + ", ZipCode=" + ZipCode + ", PhoneNumber="
 				+ PhoneNumber + "]";
 	}
+
 
 }
 
