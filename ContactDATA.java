@@ -20,9 +20,6 @@ public class ContactDATA {
 				this.PhoneNumber = phoneNumber;
 			}
 	
-	
-	
-
 	public String getFirstName() {
 		return FirstName;
 	}

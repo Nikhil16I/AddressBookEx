@@ -5,7 +5,7 @@ public class AddressBookEx{
 
 static Scanner input = new Scanner(System.in);
 static ArrayList<ContactDATA> contactBook = new ArrayList<>();
-
+static ArrayList<AddresBListEx> ListAddressBookname = new ArrayList<>();
                 public void AddContact() {
                         System.out.print("Enter First Name = ");
                 String firstName = input.next();
@@ -145,14 +145,30 @@ static ArrayList<ContactDATA> contactBook = new ArrayList<>();
                         }
                 }
         }
-                          public void AddMultipleContact() {
-        	                   System.out.println("Enter Number of Multiple Contacts to be added");
-        	                   int multi =input.nextInt();
-                                  	for(int i = 1; i = multi ; i++) {
-        	                         AddContact();
+               public void AddMultipleContact() {
+        	       System.out.println("Enter Number of Multiple Contacts to be added");
+        	          int multi =input.nextInt();
+                    for(int i = 1; i = multi ; i++) {
+        	           AddContact();
         }
    }
         
+               public void newAddressBook() {
+           		System.out.println("Name AddressBook ");
+           		String AddressBookName = input.next();
+           		
+           		AddresBListEx AddressBookObj = new AddresBListEx(AddressBookName);
+           		ListAddressBookname.add(AddressBookObj);
+           		
+           		System.out.println("New Address Book Name is added to list.");
+           }
+           	
+           	
+           	public void DisplayAddressBook() {
+           		for(AddresBListEx AddressBookName : ListAddressBookname) {
+           			System.out.println(AddressBookName.toString());
+           		}
+           	} 
         public static void main(String[] args) {
     		System.out.println("Welcome To AddressBook ");
     		AddressBookEx obj = new AddressBookEx();
