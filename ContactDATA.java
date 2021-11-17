@@ -5,6 +5,7 @@ public class ContactDATA {
 	String FirstName;String LastName;String Address;String City;String State;String Email;
 	int ZipCode;
 	int PhoneNumber;
+
 	
 	public ContactDATA(String firstName, String lastName, String address, String city, String state, int zipCode,
 			int phoneNumber, String email) {
@@ -18,17 +19,15 @@ public class ContactDATA {
 				this.Email = email;
 				this.ZipCode = zipCode;
 				this.PhoneNumber = phoneNumber;
-			}
+}
 	
-	
-	
-
 	public String getFirstName() {
 		return FirstName;
 	}
 	public void setFirstName(String firstName) {
 		FirstName = firstName;
 	}
+
 	public String getLastName() {
 		return LastName;
 	}
@@ -71,19 +70,17 @@ public class ContactDATA {
 	public void setPhoneNumber(int phoneNumber) {
 		PhoneNumber = phoneNumber;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "ContactDATA [FirstName=" + FirstName + ", LastName=" + LastName + ", Address=" + Address + ", City="
 				+ City + ", State=" + State + ", Email=" + Email + ", ZipCode=" + ZipCode + ", PhoneNumber="
 				+ PhoneNumber + "]";
 	}
-	
-	
+
 }
 
 	
 		
-
 
 	
