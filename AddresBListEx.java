@@ -22,6 +22,4 @@ public class AddresBListEx {
 		return "AddresBListEx [AddressBookName=" + AddressBookName + "]";
 	}
 
-	
-
- }
+}
